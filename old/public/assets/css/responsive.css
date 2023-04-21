@@ -1,0 +1,407 @@
+/* XL Device :1200px. */
+
+@media (min-width: 3000px) and (max-width: 4000px) {
+    .footer__shape img {
+        height: 200px;
+    }
+    .footer__shape {
+        position: absolute;
+        top: -112px;
+    }
+}
+
+@media (min-width: 2000px) and (max-width: 3000px) {
+    .footer__shape img {
+        height: 200px;
+    }
+    .footer__shape {
+        position: absolute;
+        top: -112px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1449px) {
+    .footer__shape img {
+        height: 110px;
+    }
+    .footer__shape {
+        position: absolute;
+        top: -95px;
+    }
+}
+
+
+/* LG Device :992px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .hero__content h2 {
+        font-size: 68px;
+    }
+    .hero__content h3 {
+        font-size: 48px;
+    }
+    .hero__area {
+        min-height: 695px;
+    }
+    .footer__shape img {
+        height: 110px;
+    }
+    .footer__shape {
+        position: absolute;
+        top: -95px;
+    }
+    .team__area {
+        padding: 60px 0;
+    }
+}
+
+
+/* MD Device :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .hero__content h2 {
+        font-size: 52px;
+    }
+    .hero__content h3 {
+        font-size: 32px;
+    }
+    .hero__area {
+        min-height: 575px;
+    }
+    .main__menu ul li a {
+        font-size: 14px;
+        margin-left: 15px;
+        transition: .3s all;
+    }
+    .header__right__btn__blk a {
+        min-width: 100px;
+        line-height: 35px;
+        height: 36px;
+        font-size: 14px;
+        border: 1px solid #CC0000;
+    }
+    .header__logo img {
+        height: 70px;
+    }
+    .header__shape {
+        height: 83px;
+    }
+    .main__menu {
+        top: 13px;
+        margin-top: -4px;
+    }
+    .hero__btn a {
+        font-size: 20px;
+        width: 280px;
+        height: 56px;
+        border: 1px solid #CB0000;
+    }
+    .footer__content {
+        padding-top: 30px;
+    }
+    .footer__area {
+        padding-top: 45px;
+        margin-top: 200px;
+    }
+    .footer__content p {
+        font-size: 18px;
+        padding-right: 0;
+        text-align: center;
+    }
+    .footer__btn {
+        justify-content: center !important;
+    }
+    .footer__shape img {
+        height: 100px;
+    }
+    .footer__shape {
+        position: absolute;
+        top: -95px;
+    }
+    .footer__logo__shape img {
+        height: 200px;
+    }
+    .footer__logo__shape {
+        top: -175px;
+    }
+    .team__area {
+        padding: 60px 0;
+    }
+    .team__content {
+        text-align: center;
+    }
+    .team__content h2 {
+        font-size: 20px;
+    }
+    .team__content p {
+        font-size: 14px;
+    }
+    .team__content__blk {
+        padding: 20px 0;
+    }
+    .flag__shape {
+        left: -60px;
+    }
+    .single__brand__slide {
+        height: 90px;
+    }
+    .single__brand__slide img {
+        height: 85px !important;
+    }
+    .qualifiers__item__blk.mb-80 {
+        margin-bottom: 40px;
+    }
+    .bass__cloud__text h2 {
+        font-size: 70px;
+    }
+    .bass__cloud__text p {
+        font-size: 16px;
+    }
+}
+
+
+/* SM Small Device :320px. */
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .header-nav{margin-top:0px;}
+    .hero__content h2 {
+        font-size: 36px;
+    }
+    .hero__content h3 {
+        font-size: 28px;
+    }
+    .hero__area {
+        min-height: 540px;
+    }
+    .main__menu ul li a {
+        font-size: 14px;
+        margin-left: 15px;
+        transition: .3s all;
+    }
+    .header__right__btn__blk a {
+        min-width: 100px;
+        line-height: 35px;
+        height: 36px;
+        font-size: 14px;
+        border: 1px solid #CC0000;
+    }
+    .header__logo img {
+        height: 40px;
+    }
+    .header__shape {
+        height: 52px;
+    }
+    .main__menu {
+        top: 13px;
+        margin-top: -4px;
+    }
+    .hero__btn a {
+        font-size: 18px;
+        width: 190px;
+        height: 50px;
+        border: 1px solid #CB0000;
+    }
+    .item__none {
+        display: none !important;
+    }
+    .desk__none {
+        display: block;
+    }
+    .main__menu {
+        top: 0;
+        margin-top: 0;
+        position: fixed;
+        left: -100%;
+        top: 0;
+        height: 100%;
+        width: 330px;
+        background: #091B85;
+        z-index: 999;
+        transition: .3s all;
+        padding: 20px;
+        padding-top: 120px;
+        text-align: left;
+    }
+    .main__menu ul li {
+        display: block;
+        border-bottom: 1px solid #fff;
+        margin: 8px 0;
+    }
+    .main__menu ul li a {
+        font-size: 16px;
+        margin-left: 0;
+        transition: .3s all;
+        display: block;
+        padding: 6px 12px;
+    }
+    .main__menu ul li a:hover {
+        padding-left: 7px;
+    }
+    .header__right__btn__blk {
+        margin-top: 30px;
+    }
+    .header__right__btn__blk a {
+        min-width: 135px;
+    }
+    .close__menu.desk__none {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        font-size: 24px;
+        color: #fff;
+        cursor: pointer;
+    }
+    .overlay {
+        position: fixed;
+        left: -100%;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 888;
+        background: #c1c1c194;
+        transition: .5s all;
+    }
+    .open__menu {
+        height: 46px;
+        width: 46px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        color: #fff;
+        cursor: pointer;
+        margin-top: 3px;
+    }
+    .header__logo {
+        top: 1px;
+    }
+    .main__menu.active {
+        left: 0;
+    }
+    .overlay.active {
+        left: 0;
+    }
+    .footer__content {
+        padding-top: 30px;
+    }
+    .footer__area {
+        padding-top: 40px;
+        margin-top: 100px;
+    }
+    .footer__content p {
+        font-size: 16px;
+        padding-right: 0;
+        text-align: center;
+    }
+    .footer__btn {
+        justify-content: center !important;
+    }
+    .footer__shape {
+        position: absolute;
+        top: -38px;
+    }
+    .footer__logo__shape img {
+        height: 140px;
+    }
+    .footer__logo__shape {
+        top: -86px;
+    }
+    .footer__shape img {
+        height: 60px;
+    }
+    .footer__logo img {
+        height: 45px;
+    }
+    .footer__menu ul li a {
+        font-size: 14px;
+        margin: 5px 15px;
+    }
+    .footer__logo {
+        padding: 15px;
+    }
+    .copyright__text p {
+        font-size: 14px;
+    }
+    .footer__bottom__area {
+        padding: 25px 0;
+    }
+    .team__area {
+        padding: 40px 0;
+    }
+    .team__content {
+        text-align: center;
+    }
+    .team__content h2 {
+        font-size: 16px;
+    }
+    .team__content p {
+        font-size: 14px;
+    }
+    .team__content__blk {
+        padding: 20px 0;
+    }
+    .flag__shape {
+        left: -162px;
+    }
+    .single__brand__slide {
+        height: 90px;
+    }
+    .single__brand__slide img {
+        height: 85px !important;
+    }
+    .qualifiers__item__blk.mb-80 {
+        margin-bottom: 40px;
+    }
+    .bass__cloud__text h2 {
+        font-size: 60px;
+    }
+    .bass__cloud__text p {
+        font-size: 16px;
+    }
+    .bass__cloud__blk {
+        padding-top: 0;
+    }
+    .pricing__blk {
+        padding-top: 10px;
+    }
+    .pricing__blk .row>.col-lg-4.mt-20 {
+        margin-top: 35px;
+    }
+    .team__content__blk.mt-60 {
+        margin: 0;
+    }
+    .qualifiers__inner__item span {
+        width: 165px;
+        font-size: 14px;
+        padding: 0 10px;
+    }
+    .qualifiers__inner__item p {
+        font-size: 16px;
+        padding-left: 10px;
+    }
+    .qualifiers__inner__item {
+        height: 50px;
+    }
+    .single__pricing__blk>h3 {
+        font-size: 18px;
+    }
+    .single__pricing__blk p {
+        font-size: 14px;
+    }
+    .single__pricing__blk h4 {
+        font-size: 14px;
+        padding: 12px 10px;
+    }
+    .price__range h3 {
+        font-size: 18px;
+        padding: 12px 10px;
+        margin-top: 15px;
+    }
+}
+
+
+/* SM Small Device :550px. */
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .header-nav{margin-top:0px;}
+}

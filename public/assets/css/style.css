@@ -1,0 +1,763 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Base CSS */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    color: #07171D;
+}
+
+body {
+    color: #07171D;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    /*min-height: 100%!important;*/
+}
+html, body
+{
+    height: 100%!important;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+a,
+button,
+input,
+textarea {
+    outline: none !important;
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+
+/* --------------------------------- HEADER AREA START ------------------------- */
+
+.header__logo img {
+    height: 90px;
+}
+
+.header__blk {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__right__btn__blk a {
+    min-width: 112px;
+    display: inline-block;
+    text-align: center;
+    line-height: 35px;
+    height: 40px;
+    background: #CC0000;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    border: 2px solid #CC0000;
+    transition: .3s all;
+}
+
+.header__right__btn__blk a:last-child {
+    margin-left: 15px;
+}
+
+.header__right__btn__blk a:hover {
+    background: #fff;
+    color: #CB0000;
+}
+
+.header__right__btn__blk a i {
+    margin-right: 5px;
+}
+
+.main__menu ul li a {
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 30px;
+    color: #fff;
+    transition: .3s all;
+}
+
+.main__menu ul li a:hover {
+    color: #CC0000;
+}
+
+.main__menu ul li {
+    display: inline-block;
+}
+
+.header__right__blk {
+    text-align: right;
+}
+
+
+/* --------------------------------- HEADER AREA END ------------------------- */
+
+
+/* --------------------------------- HERO AREA START ------------------------- */
+
+.hero__area {
+    min-height: 900px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+.hero__btn a {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    display: inline-block;
+    width: 333px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #CB0000;
+    border-radius: 4px;
+    border: 2px solid #CB0000;
+    transition: .3s all;
+}
+
+.hero__btn a:hover {
+    background: #fff;
+    color: #CB0000;
+}
+
+.hero__content {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero__content h2 {
+    font-size: 80px;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 0;
+    text-shadow: 0px 0px 10px #000000;
+}
+
+.hero__content h3 {
+    font-size: 60px;
+    font-weight: 900;
+    color: #fff;
+    text-shadow: 0px 0px 10px #000000;
+}
+
+.hero__btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.header__area {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 333;
+}
+
+.header__shape {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 104px;
+}
+
+.header__shape img {
+    width: 100%;
+    height: 100%;
+}
+
+.main__menu {
+    position: relative;
+    top: 15px;
+    margin-top: 5px;
+}
+
+.header__logo {
+    position: relative;
+    top: 6px;
+}
+
+.hero__shape {
+    position: absolute;
+    bottom: 0;
+    z-index: 333;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+
+/* --------------------------------- HERO AREA END ------------------------- */
+
+
+/* --------------------------------- TEAM AREA START ------------------------- */
+
+.brand__slide__blk {
+    padding: 0 60px;
+}
+
+.team__content__blk {
+    background: #0A1B85;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    overflow: hidden;
+    padding: 25px 0;
+}
+
+.team__content h2 {
+    font-size: 26px;
+    color: #fff;
+    font-weight: 700;
+    margin: 0;
+}
+
+.flag__shape {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.qualifiers__inner__item p {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 10px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.bg__color_1 {
+    background: #066FBD;
+}
+
+.bg__color_2 {
+    background: #FF0302;
+}
+
+.bg__color_3 {
+    background: #000;
+}
+
+.bg__color_4 {
+    background: #973364;
+}
+
+.bg__color_5 {
+    background: #507B22;
+}
+
+.bg__color_6 {
+    background: #9C9C9C;
+}
+
+.qualifiers__inner__item {
+    height: 60px;
+    margin-top: 20px;
+}
+
+.qualifiers__inner__item span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border: 1px solid #9C9C9C;
+    width: 220px;
+    font-size: 18px;
+    font-weight: 700;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 0 12px;
+}
+
+.bass__cloud__blk {
+    border-top: 1px solid #DCDCDC;
+    padding-top: 15px;
+}
+
+.bass__cloud__text {
+    text-align: center;
+}
+
+.bass__cloud__text h2 {
+    font-size: 90px;
+    margin: 0;
+    font-style: italic;
+    font-weight: 700;
+    color: #0A1B85;
+}
+
+.bass__cloud__text p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.pricing__blk {
+    padding-top: 40px;
+}
+
+.single__pricing__blk {
+    box-shadow: 0px 0px 22px 1px rgba(100, 100, 100, 0.57);
+    -webkit-box-shadow: 0px 0px 22px 1px rgba(100, 100, 100, 0.57);
+    -moz-box-shadow: 0px 0px 22px 1px rgba(100, 100, 100, 0.57);
+    background: #0A1B85;
+    text-align: center;
+    position: relative;
+    z-index: 3;
+    padding: 20px;
+    padding-top: 40px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.flag__small__shape {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.single__pricing__blk>h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.single__pricing__blk p {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.single__pricing__blk h4 {
+    background: #06104E;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 10px;
+    border-radius: 8px;
+}
+
+.price__range h3 {
+    background: #FF0302;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 10px;
+    border-radius: 8px;
+    margin: 0;
+    margin-top: 15px;
+}
+
+.single__pricing__blk small {
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.single__pricing__blk a {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    transition: .2s all;
+}
+
+.single__pricing__blk a i {
+    color: #FF0302;
+    margin-left: 6px;
+}
+
+.single__pricing__blk a:hover {
+    color: #FF0302;
+}
+
+.team__area {
+    padding: 80px 0;
+}
+
+
+/* --------------------------------- TEAM AREA END ------------------------- */
+
+
+/* --------------------------------- BRAND SLIDE AREA START ------------------------- */
+
+.single__brand__slide {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.single__brand__slide img {
+    width: auto !important;
+}
+
+.brand__slide__area {
+    margin: 30px 0;
+    padding: 50px 0;
+    border: 1px solid #F0F0F0;
+}
+
+.owl-nav button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20px;
+    font-size: 32px !important;
+    color: #0A1B85 !important;
+}
+
+.owl-next {
+    left: auto !important;
+    right: 20px;
+}
+
+.team__content p {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 0;
+    margin-top: 8px;
+}
+
+
+/* --------------------------------- BRAND SLIDE AREA END ------------------------- */
+
+
+/* --------------------------------- FOOTER AREA START ------------------------- */
+
+.footer__area {
+    margin-top: 250px;
+    padding-top: 120px;
+    padding-bottom: 60px;
+    background: #031166;
+    position: relative;
+    z-index: 1;
+}
+
+.footer__shape {
+    position: absolute;
+    top: -78px;
+    z-index: -1;
+    left: 0;
+    right: 0;
+}
+
+.footer__shape img {
+    width: 100%;
+}
+
+.footer__content h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background: #0A1B85;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 3px;
+}
+
+.footer__list ul li a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    display: block;
+    padding: 5px 0;
+    transition: .3s all;
+}
+
+.footer__list ul li a:hover {
+    color: #CB0000;
+}
+
+.footer__list ul li {
+    position: relative;
+    display: block;
+    padding: 3px 0;
+    padding-left: 35px;
+}
+
+.footer__list ul li::before {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    content: '';
+    clip-path: polygon(100% 50%, 0 0, 0 100%);
+    height: 10px;
+    width: 10px;
+    background: #CB0000;
+}
+
+.footer__btn {
+    display: flex;
+    justify-content: flex-start !important;
+}
+
+.footer__content p {
+    font-size: 17px;
+    font-weight: 400;
+    color: #fff;
+    padding-right: 50px;
+    line-height: 28px;
+}
+
+.footer__btn a {
+    font-size: 16px !important;
+    font-weight: 700;
+    padding: 10px 50px !important;
+    width: auto !important;
+    height: auto !important;
+    border: 1px solid #CB0000;
+}
+
+.footer__logo__shape {
+    position: absolute;
+    top: -192px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+/* --------------------------------- FOOTER AREA END ------------------------- */
+
+
+/* --------------------------------- FOOTER BOTTOM AREA START ------------------------- */
+
+.footer__bottom__area {
+    background: #000941;
+    padding-top: 30px;
+    padding-bottom: 45px;
+}
+
+.footer__bottom__area {
+    background: #000941;
+    padding-top: 30px;
+    padding-bottom: 45px;
+}
+
+.footer__menu ul li {
+    display: inline-block;
+}
+
+.footer__menu ul {
+    text-align: center;
+}
+
+.footer__menu ul li a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    margin: 0 15px;
+    transition: .3s all;
+}
+
+.footer__logo img {
+    height: 90px;
+}
+
+.footer__logo {
+    text-align: center;
+    padding: 30px;
+}
+
+.footer__menu ul li a:hover {
+    color: #CB0000;
+}
+
+.copyright__text p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+
+
+/* --------------------------------- FOOTER BOTTOM AREA END ------------------------- */
+
+.desk__none {
+    display: none;
+}
+.dropbtn ul{max-width: 250px;}
+
+.dropbtn ul li a {
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 30px;
+    color: #000;
+    transition: .3s all;
+}
+
+/*.header-nav{margin-top:104px;}*/
+/*@media (min-width: 992px) {*/
+/*   .header-nav {*/
+/*    height:104px;*/
+/*}*/
+/*}*/
+
+
+.homepage-map {
+    width:65%;
+}
+
+.dropdown-menu{
+    background-color:#031166!important;
+}
+
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+    max-height: 150px;
+}
+
+
+.dropdown-item:hover, .dropdown-item:focus {
+    color: #1e2125;
+    background-color: transparent;
+}
+
+/* --------------------------------- Card Styling ------------------------- */
+.single__pricing__blk small {
+    margin-bottom: 3px;
+}
+
+
+
+/*Print Only CSS*/
+
+@media print { 
+ /* All your print styles go here */
+ .header-nav {
+     display:none!important;
+ }
+ .footer__area {
+     display:none!important;
+ }
+ .team__area {
+     display:none!important;
+ }
+ .footer__bottom__area {
+     background:#fff!important;
+     padding-top:0!important;
+     padding-bottom:0!important;
+ }
+ .copyright__text p {
+     color:#000!important;
+ }
+ .ajs-footer {
+     display:none!important;
+ }
+ .single__pricing__blk {
+     display:none!important;
+ }
+ #features {
+     padding-top:0!important;
+     padding-bottom:0!important;
+ }
+ /*.footer__logo {*/
+ /*    padding-top:0!important;*/
+ /*}*/
+ .print-details {
+     margin-top:0!important;
+     margin-bottom:0!important;
+ }
+ .hide-print {
+     display:none!important;
+ }
+ 
+}
+
+
+/*Testing*/
+
+
+.main__menu {
+    position: relative;
+    top: 15px;
+    margin-top: 5px;
+    left: 100px;
+}
+
+
+
